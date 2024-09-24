@@ -7,7 +7,7 @@
   height: 35vh;
   
   background-color: #fff;
-  background-image: url("/bg/bg4.png");
+  background-image: url("bg/bg4.png");
   background-size: cover;
   background-position: bottom; /* Position the background image from the bottom */
   border-bottom:0.5vh solid white;
@@ -18,7 +18,7 @@
 .slide_show {
   height: 70vh;
   background-color: #fff;
-  background-image: url("/bg/bg4.png");
+  background-image: url("bg/bg4.png");
   background-size: cover;
   background-position: bottom; /* Position the background image from the bottom */
   border-bottom:0.5vh solid white;
