@@ -108,7 +108,7 @@ function create_s(g_name, g_quote, g_link) {
 
     const s_a = document.createElement('a');
     s_a.classList.add("s_a");
-    s_a.href = `/${g_link}.html`;
+    s_a.href = `${g_link}.html`;
     s_a.appendChild(suggest_schedule);
 
     const schedule = document.createElement('div');
@@ -154,7 +154,7 @@ function slide() {
             slide_name.innerText = set_quotes_name[k];
             slide_des.innerText = quotes_name[k][r];
 
-            bg.style.backgroundImage = `url("/bg/bg${i}.png")`;
+            bg.style.backgroundImage = `url("bg/bg${i}.png")`;
 
             i++;
             k++;
